@@ -35,7 +35,7 @@
 
 ### 🌐 Live Demo
 
-🔗 **[View Live Project Here](https://github.io)**
+🔗 **[View Live Project Here](https://hemamalini8.github.io/Student_Form-Yellow-World-/)**
 
 ---
 
@@ -49,7 +49,5 @@ Student_Form-Yellow-World-/
 ```
 
 ---
-
-> *“Clean code, bright design, and seamless user interaction.”* ✨
 
 **Built with 💛 by Hemamalini R**

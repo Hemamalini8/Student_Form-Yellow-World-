@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT FORM</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body class="bg-yellow-50">
+    <h1 class="text-center pt-10 pb-10 text-3xl font-bold text-yellow-600">STUDENT FORM</h1>
+
+    <div class="flex justify-center">
+
+
+        <table class="border border-gray-900">
+            <tr>
+                <td class="p-3  font-semibold">Name</td>
+                <td class=" p-3"><input type="text" class="focus:outline-none border border-black p-2" id="name"
+                        placeholder="Enter your Name"></td>
+            </tr>
+            <tr>
+                <td class="p-3   font-semibold">Age</td>
+                <td class="p-3"><input type="number" class="focus:outline-none border border-black p-2"
+                        placeholder="Enter your Age" id="age"></td>
+            </tr>
+            <tr>
+                <td class="p-3 font-semibold">Gender</td>
+                <td class="p-3">
+                    <label>
+                        <input type="radio" value="Male" class="cursor-pointer" name="Gender" id="gender">
+                        <span>Male</span>
+                    </label>
+                    <label>
+                        <input type="radio" value="Female" class="cursor-pointer" name="Gender" id="gender">
+                        <span>Female</span>
+                    </label>
+
+                </td>
+            </tr>
+            <tr>
+                <td class="p-3 font-semibold">Course</td>
+                <td class="p-3 ">
+                    <select name="Course" id="course"
+                        class="border border-black p-1 w-full focus:outline-none cursor-pointer">
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Java">Java</option>
+                        <option value="Python">Python</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="p-3 font-semibold"> E-mail</td>
+                <td class="p-3"><input id="mail" type="email" placeholder="Enter your Mail" class="border border-gray-600 p-2 ">
+                </td>
+            </tr>
+            <tr>
+                <td class="text-center p-3" colspan="2"><button
+                        class="bg-yellow-600 w-full p-2 rounded-lg font-semibold" id="btn">Save</button></td>
+            </tr>
+
+
+        </table>
+
+    </div>
+    <div class="mt-12">
+        <table class="border border-gray-900 w-full" id="container">
+            <tr>
+                <td class="p-3"><label class="font-semibold text-lg">Name</label></td>
+                <td class="p-3"><label class="font-semibold text-lg">Age</label></td>
+                <td class="p-3"><label class="font-semibold text-lg">Gender</label></td>
+                <td class="p-3">
+                    <labe class="font-semibold text-lg">Course</label>
+                </td>
+                <td class="p-3"><label class="font-semibold text-lg">E-mail</label></td>
+                <td class="p-3"><label class="font-semibold text-lg">Action</label></td>
+            </tr>
+
+        </table>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+
+</html>
+<button onclick=""></button>
